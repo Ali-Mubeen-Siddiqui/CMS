@@ -6,6 +6,8 @@ from orderOperations import frameOrders
 # imports are till here only
 
 
+# this is the customer class it provides customer services
+
 class Customer:
     def __init__(self):
         self.ID = generateID()

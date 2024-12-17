@@ -1,6 +1,8 @@
 import pymongo
 from utilities import checkChoice,connectException
 
+# imports
+# admin class
 
 
 class Admin:
@@ -353,6 +355,8 @@ ___________________________________________________\n""")
             e = connectException()
             print(e)
 
+
+# this file is for admin panel
 
 
 
