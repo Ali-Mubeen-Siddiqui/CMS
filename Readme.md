@@ -50,21 +50,11 @@ To set up the CMS on your local machine, follow these steps:
    - The default connection string used in the code is `mongodb://localhost:27017/`. Make sure this is correctly configured in your environment.
 
 ## Usage
-1. **Run the Admin Panel**:
-   To start the admin functionalities, execute:
-   ```bash
-   python Admin.py
-   ```
-   - Follow the prompts to manage menu items and view customer orders.
-
-2. **Run the Customer Interface**:
-   To start the customer functionalities, execute:
-   ```bash
-   python CustomerPage.py
-   ```
-   - Customers can place orders, view the menu, and manage their orders through this interface.
-
-3. **Follow the prompts** in the console to navigate through the options. The system will guide you through various functionalities based on your role (admin or customer).
+To run the project, execute:
+```bash
+python main.py
+```
+- Follow the prompts to navigate through the options. The system will guide you through various functionalities based on your role (admin or customer).
 
 ## MongoDB Database Structure
 The MongoDB database for this project is structured as follows:
